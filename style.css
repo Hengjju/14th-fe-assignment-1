@@ -2,13 +2,16 @@
   background-color: lightgrey;
 }
 .Container{
-  width : 1000px;
-  height : 400px;
+  display : flex;
+  flex-direction : row;
+  width : 850px;
+  height : 390px;
   margin : 100px;
-  border : 2px solid black;
+  border : 3px solid black;
   padding : 20px;
   background-color : grey;
-  border-radius : 10px;
+  border-radius : 15px;
+  align-items : center;
 }
 .img_Container{
   margin-top: 20px;
@@ -25,10 +28,18 @@
   text-align : left;
   color : white;
 }
+
+.Welcome_text{
+  width : 450px;
+  margin-top : 40px;
+  margin-left : 15px;
+}
+
 .Dp{
   display : flex;
-  margin : 15px;
+  margin : 5px;
 }
+
 .Dp > button{
   width : 130px;
   height : 100px;
@@ -37,16 +48,61 @@
   display : flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color : white;
 }
+
 .Dp > button:hover {
-  background-color: orange; /* 마우스를 올리면 조금 더 진한 파란색으로! */
+  background-color: orange; 
 }
 .Wel_1st{
   margin-bottom : 40px;
 }
-.Welcome_text{
-  margin-top : 40px;
-  margin-left : 15px;
+
+.Login_Window{
+  margin-left : 50px;
+  margin-right : 50px;
+  display : flex; 
+  flex-direction : column;
+  width : 400px;
+  height : 220px;
+  align-items : center;
+  background-color: #101123;
+  border-radius : 15px;
+}
+
+.Login_content > *{
+  margin : 10px;
+  display : flex;
+  width : 200px;
+  height : 38px;
+  border-radius: 19px;
+  background-color : white;
+  border : 0px;
+  color : grey;
+  align-items: center;
+}
+
+.Login_content > * > span{
+  margin : 10px;
+}
+.Login_content > * > input{
+  height : 80%;
+  border : none;
+  width : 70%;
+}
+
+.Login_Button{
+  width : 250px;
+  height : 35px;
+  border-radius: 20px;
+  margin-top : 10px;
+  margin-bottom : 20px;
+  background-color: orange;
+  font-size : 12px;
+  font-weight : bold;
+  border : none;
+}
+.Login_Button:hover {
+  background-color: #E69500; 
 }
