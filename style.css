@@ -58,6 +58,16 @@
 .Dp > button:hover {
   background-color: orange; 
 }
+
+.Dp > button:focus {
+  background-color: orange; 
+}
+
+.Dp > button:active {
+  background-color: #E69500; 
+}
+
+
 .Wel_1st{
   margin-bottom : 40px;
 }
@@ -108,4 +118,8 @@
 }
 .Login_Button:hover {
   background-color: #E69500; 
+}
+
+.Login_Button:active {
+  background-color: #c27f03; 
 }
